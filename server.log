@@ -1,0 +1,15 @@
+nohup: ignoring input
+◇ injected env (1) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+API key loaded: true
+Server running on http://localhost:3000
+SERVER ERROR: Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1948:16)
+    at listenInCluster (node:net:2005:12)
+    at node:net:2214:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
